@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+
+    <style>
+        .container{
+            display: flex;
+            gap: 300px;
+            height: 900px;
+        }
+        .ve-container {
+            border: 1px solid black;
+            width: 200px;
+            height: 250px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 10px 10px 0px 10px;
+            padding: 0;
+            background-color: #ADD9E6;
+        }
+
+        li a {
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        li a:hover {
+            background-color: #FEA500;
+            color: white;
+
+        }
+
+        .ho{
+            margin-top: 100px;
+        }
+        .ho-container {
+            border: 1px solid black;
+            width: 300px;
+            height: 150;
+        }
+
+        .ho-container ul {
+            list-style-type: none;
+            display: flex;
+            margin: 10px 0px 10px 10px;
+            padding: 0;
+            background-color: #D3D3D3;
+        }
+
+        .ho-container li a {
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            border-right:1px solid #555
+        }
+
+        .ho-container li a:hover {
+            background-color: #808080;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="ve">
+            <h3>Vertical Navigation Bar</h3>
+
+            <div class="ve-container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="ho">
+            <h3>Horizontal Navigation Bar</h3>
+
+            <div class="ho-container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

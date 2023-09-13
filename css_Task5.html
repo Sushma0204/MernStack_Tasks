@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style page</title>
+    <style>
+        .container {
+            width: 900px;
+            height: 700px;
+            border: 1px dotted black;
+            background-color: #d9da3e;
+            display: grid;
+            grid-template-columns: 320px 1fr;
+        }
+        .left{
+            margin: 30px;
+        }
+
+        a {
+            font-weight: 400;
+            font-size: 1.4em;
+            text-decoration: none;
+            background-color: white;
+            color: blue;
+        }
+
+        .left-rec {
+            width: 200px;
+            height: 30px;
+            background-color: white;
+            text-align: left;
+            padding-top: 10px;
+            padding-left: 5px;
+            
+        }
+
+        .right-rec {
+            width: 30px;
+            background-color: black;
+        }
+
+        .a:hover{
+            color: #90008c;
+        }
+
+        .left-container:hover {
+            transform: scale(108%, 108%);
+            transition: .5s;
+            color: #90008c;
+        }
+
+        .left-container {
+            width: 220px;
+            display: grid;
+            grid-template-columns: 200px 20px;
+            transition: .5s;
+            margin-bottom: 5%;
+        }
+
+        .right {
+            width: 600px;
+            color: #90008c;
+        }
+        .line{
+            border: 1px dotted #90008c;
+            width: 570px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left-container">
+                <div class="left-rec"><a href="">Home Page</a></div>
+                <div class="right-rec"></div>
+            </div>
+            <div class="left-container">
+                <div class="left-rec"><a href="">Musings</a></div>
+                <div class="right-rec"></div>
+            </div>
+            <div class="left-container">
+                <div class="left-rec"><a href="">My Town</a></div>
+                <div class="right-rec"></div>
+            </div>
+            <div class="left-container">
+                <div class="left-rec"><a href="">Links</a></div>
+                <div class="right-rec"></div>
+            </div>
+        </div>
+        <div class="right">
+            <p style="font-size: 3em; margin-top: 0%; font-weight: bolder;">My First Styled Page</p>
+            <p style="font-size: 1.5em;">Welcome to my styled page! <br><br>
+                It lacks images, but at least it has style. And it<br>
+                has links, even if they don't go anywhere... <br><br>
+                There should be more here, but I don't know<br>
+                what yet. <br>
+                <div class="line"></div><br><br>
+                <i style="font-size: 1.5em; font-weight: 500">Made 5 April 2004 <br>
+                    by myself.</i>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoverable buttons</title>
+    <style>
+        .container{
+            display: flex;
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+        }
+        .rec1, .rec2, .rec3, .rec4{
+            width: 30px;
+            height: 30px;
+            border-radius: 0px 5px 5px 0px;
+            margin: 10px 0px;
+            transition: background-color 0.5s, transform 0.5s;; 
+        }
+        .rec1{
+            background-color: #04A96D;
+        }
+        .rec2{
+            background-color: #2196F3;
+        }
+        .rec3{
+            background-color: #F44236;
+        }
+        .rec4{
+            background-color: #555555;
+        }
+
+        
+        .rec1:hover{
+            background-color: #0D8F5F;
+            transform: scale(1.1);
+
+        }
+        .rec2:hover{
+            background-color: #0F6AC3; 
+            transform: scale(1.1);
+        }
+        .rec3:hover{
+            background-color: #D62E22;
+            transform: scale(1.1);
+        }
+        .rec4:hover{
+            background-color: #333333;
+            transform: scale(1.1);
+        }
+
+        .right{
+            margin: 0px 30px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="rec1"></div>
+            <div class="rec2"></div>
+            <div class="rec3"></div>
+            <div class="rec4"></div>
+        </div>
+
+        <div class="right">
+            <h3>Hoverable Sidenav Buttons</h3>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

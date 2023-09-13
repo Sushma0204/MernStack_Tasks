@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        table {
+            width: 600px;
+        }
+
+        .ip {
+            width: 415px;
+        }
+        button{
+            display: block;
+            margin: 0px 280px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="display: grid; grid-template-rows: auto auto; margin-left: 30%;">
+        <div>
+            <h1 style="color: blue; margin-left: 200px;">Registration Form</h1>
+        </div>
+        <div>
+            <form action="" style="font-size: large;">
+                <table cellspacing="0" border="1" cellpadding="5px">
+                    <tr>
+                        <th>First Name</th>
+                        <td><input class="ip" type="text" name="fname" id=""></td>
+                    </tr>
+                    <tr>
+                        <th>Last Name</th>
+                        <td><input class="ip" type="text" name="lname" id=""></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td><input class="ip" type="email" name="email" id=""></td>
+                    </tr>
+                    <tr>
+                        <th>Password</th>
+                        <td><input class="ip" type="password" name="pass" id=""></td>
+                    </tr>
+                    <tr>
+                        <th>Re-Enter Password</th>
+                        <td><input class="ip" type="password" name="repass" id=""></td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="2">Gender:</th>
+                        <td><input type="radio" name="gender" id="">Male</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="gender" id="">Female</td>
+                    </tr>
+
+                    <tr>
+                        <th>Age:</th>
+                        <td><input class="ip" type="number" name="age" id=""></td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td><textarea name="address" id="" cols="54" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>State</th>
+                        <td><input class="ip" type="text" name="state" id=""></td>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <td><select class="ip" name="country" id="">
+                                <option value="india">India</option>
+                                <option value="uk">UK</option>
+                                <option value="swiss">Switzerland</option>
+                                <option value="nzl">New Zealand</option>
+                                <option value="chi">China</option>
+                                <option value="aus">Australia</option>
+                                <option value="usa">USA</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th>Languages Known</th>
+                        <td>
+                            <input type="checkbox" name="eng" id="">English
+                            <input type="checkbox" name="kan" id="">Kannada
+                            <input type="checkbox" name="hin" id="">Hindi
+                            <input type="checkbox" name="tel" id="">Telugu
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="margin-left: 0;" colspan="2"><input type="checkbox" name="declaration"
+                                id="">&nbsp;Hereby I declare all the given details are true.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p style="margin: 0; margin-left: 68%;">Login to <a href="#">Ethnus</a>
+                                website</p>
+                        </td>
+                    </tr>
+                </table><br>
+                <button>Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

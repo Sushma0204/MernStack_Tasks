@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <style>
+        .container{
+            width: 240px;
+            height: 150px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        ul .Outer{
+            list-style-type: disc;
+        }
+        ul .Inner{
+            list-style-type: circle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>Lists can be nested (list inside list): </p>
+        <ul class="Outer">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <ul class="Inner">
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+            </ul>
+            <li>Milk</li>
+        </ul>
+
+    </div>
+    
+</body>
+</html>
